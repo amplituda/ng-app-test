@@ -32,7 +32,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "@ng-vcl/ng-vcl": "^0.3.3-7",
-    "@ng-vcl/plotly": "^0.2.14",
+    "@ng-vcl/plotly": "^0.3.3",
     "@ngtools/webpack": "^1.4.2",
     "@types/gulp": "^4.0.4",
     "@types/jasmine": "^2.5.52",
@@ -92,5 +92,7 @@
   "main": "index.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
-  "dependencies": {}
+  "dependencies": {
+    "plotly.js": "^1.28.3"
+  }
 }
