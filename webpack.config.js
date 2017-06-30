@@ -125,6 +125,7 @@ function webpackConfig(options) {
     ],
     resolve: {
       extensions: ['.ts', '.js', '.json'],
+      mainFields: ["webpack", "browser", "module", "main"],
       plugins: [ new TsConfigPathsPlugin() ]
     },
     devServer: {
